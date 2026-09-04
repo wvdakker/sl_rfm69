@@ -3141,6 +3141,12 @@
 		(uuid "9a726c91-e7d7-457b-ab0b-f3590fa4bd91")
 	)
 	(junction
+		(at 38.1 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9be44c38-3880-45e0-b961-1276eacc5d8d")
+	)
+	(junction
 		(at 125.73 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3524,7 +3530,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 102.87) (xy 38.1 111.76)
+			(xy 38.1 102.87) (xy 38.1 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3601,6 +3607,16 @@
 			(type default)
 		)
 		(uuid "35f7299a-f827-4906-9c9d-933a434517d7")
+	)
+	(wire
+		(pts
+			(xy 38.1 113.03) (xy 46.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4399ecd7-027e-4cbe-a710-c50ada8ce9a1")
 	)
 	(wire
 		(pts
@@ -3784,6 +3800,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 113.03) (xy 82.55 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd9c1ff-397d-4424-a962-0ad57c97c274")
+	)
+	(wire
+		(pts
 			(xy 203.2 139.7) (xy 203.2 138.43)
 		)
 		(stroke
@@ -3901,6 +3927,16 @@
 			(type default)
 		)
 		(uuid "bbf24c21-92e5-4bf0-89c0-4d7fb327d0ab")
+	)
+	(wire
+		(pts
+			(xy 82.55 113.03) (xy 82.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c496af49-bd01-4b8f-9a86-2ed1af8e2ab0")
 	)
 	(wire
 		(pts
@@ -4041,6 +4077,26 @@
 			(type default)
 		)
 		(uuid "e7f58d8d-742b-4eae-9852-e0239b0082a0")
+	)
+	(wire
+		(pts
+			(xy 54.61 113.03) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99bdf49-85df-4a56-a032-765e2030ed1a")
+	)
+	(wire
+		(pts
+			(xy 38.1 113.03) (xy 38.1 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7fcfe1-498c-4139-a8cd-3c75d4ff0aff")
 	)
 	(wire
 		(pts
@@ -4514,7 +4570,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 111.76 0)
+		(at 38.1 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4525,7 +4581,7 @@
 		(fields_autoplaced yes)
 		(uuid "03479a50-b551-4d0f-81ac-9c27ace67f7b")
 		(property "Reference" "#PWR01"
-			(at 38.1 118.11 0)
+			(at 38.1 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4536,7 +4592,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 116.84 0)
+			(at 38.1 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4546,7 +4602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 111.76 0)
+			(at 38.1 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4557,7 +4613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 111.76 0)
+			(at 38.1 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4568,7 +4624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 111.76 0)
+			(at 38.1 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4611,7 +4667,7 @@
 				)
 			)
 		)
-		(property "Value" "RECV"
+		(property "Value" "Orange"
 			(at 49.2125 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4675,6 +4731,85 @@
 			(project "SL_RFM69"
 				(path "/d71c0c79-35d2-499f-8f42-0d6fe8455a1c"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 64.77 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21abc773-3e91-4ee8-8017-4854fa0bc273")
+		(property "Reference" "R4"
+			(at 68.326 115.062 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 64.77 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 64.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 64.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4c85a03e-cd1d-443f-a743-57bcc48ba184")
+		)
+		(pin "1"
+			(uuid "c5d66ac5-63cb-4840-aa72-443855a612a4")
+		)
+		(instances
+			(project "SL_RFM69"
+				(path "/d71c0c79-35d2-499f-8f42-0d6fe8455a1c"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4779,7 +4914,7 @@
 				)
 			)
 		)
-		(property "Value" "INIT"
+		(property "Value" "Blue"
 			(at 49.2125 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4843,6 +4978,84 @@
 			(project "SL_RFM69"
 				(path "/d71c0c79-35d2-499f-8f42-0d6fe8455a1c"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 82.55 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48dc5155-b4a4-4634-bb0d-1161cb50cde0")
+		(property "Reference" "#PWR09"
+			(at 82.55 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 82.55 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 82.55 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2969aa4-3175-4149-a7cf-9fb406947f42")
+		)
+		(instances
+			(project "SL_RFM69"
+				(path "/d71c0c79-35d2-499f-8f42-0d6fe8455a1c"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4947,7 +5160,7 @@
 				)
 			)
 		)
-		(property "Value" "SEND"
+		(property "Value" "Red"
 			(at 49.276 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5037,7 +5250,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "470"
 			(at 64.77 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5194,7 +5407,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "470"
 			(at 64.77 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5853,7 +6066,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "470"
 			(at 64.77 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5906,6 +6119,96 @@
 			(project "SL_RFM69"
 				(path "/d71c0c79-35d2-499f-8f42-0d6fe8455a1c"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 50.8 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d260a428-dd92-472c-b37a-281efde57c5b")
+		(property "Reference" "D7"
+			(at 54.356 115.062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 49.276 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 50.8 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 50.8 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d3ac4baf-3596-42f7-ad27-4a1bdb4a2c16")
+		)
+		(pin "1"
+			(uuid "edaf8154-45c7-4777-a510-9b1e2c2fed93")
+		)
+		(instances
+			(project "SL_RFM69"
+				(path "/d71c0c79-35d2-499f-8f42-0d6fe8455a1c"
+					(reference "D7")
 					(unit 1)
 				)
 			)

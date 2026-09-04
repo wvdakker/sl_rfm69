@@ -1581,9 +1581,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "17a60706-0ac1-4187-8f09-47bc6681f7e5")
 		(property "Reference" "U1"
@@ -1631,6 +1631,17 @@
 			)
 		)
 		(property "Description" "Low power ISM Radio Transceiver Module, SPI interface, AES encryption, 434 or 915 MHz, up to 100mW, up to 300 kb/s, SMD-16, DIP-16"
+			(at 158.75 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" ""
 			(at 158.75 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1856,6 +1867,17 @@
 		)
 		(property "LCSC" "C52923"
 			(at 152.4 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C52923"
+			(at 152.4 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2124,6 +2146,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C15525"
+			(at 163.83 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "00aa28e3-4596-44ba-a1a5-ca81bed387e1")
 		)
@@ -2234,9 +2267,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "e3625560-8077-4465-8f1a-79bf91e34582")
 		(property "Reference" "AE1"
@@ -2296,6 +2329,17 @@
 			)
 		)
 		(property "LCSC" "C88374"
+			(at 185.42 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C88374"
 			(at 185.42 82.55 0)
 			(hide yes)
 			(show_name no)

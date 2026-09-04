@@ -4721,6 +4721,28 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C84262"
+			(at 50.8 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C84262"
+			(at 50.8 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "96d2bf2b-8b5f-41dd-8cf0-735c5b0604b2")
 		)
@@ -4791,6 +4813,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 64.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C17710"
+			(at 64.77 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17710"
+			(at 64.77 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4958,6 +5002,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C2293"
+			(at 50.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2293"
 			(at 50.8 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5214,6 +5280,28 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C84256"
+			(at 50.8 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C84256"
+			(at 50.8 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a8be6446-873f-4fd2-ba1e-bcbda819f4df")
 		)
@@ -5284,6 +5372,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 64.77 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C17710"
+			(at 64.77 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17710"
+			(at 64.77 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5441,6 +5551,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 64.77 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C17710"
+			(at 64.77 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17710"
+			(at 64.77 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5619,6 +5751,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C559170"
+			(at 135.89 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "eb58ce18-cf22-43d2-9685-cdc5f22ff8b4")
 		)
@@ -5732,6 +5875,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 222.25 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" ""
 			(at 222.25 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -6109,6 +6263,28 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C17710"
+			(at 64.77 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17710"
+			(at 64.77 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "94164140-ce14-4c48-938d-7d176fe1fe6e")
 		)
@@ -6189,6 +6365,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C2297"
+			(at 50.8 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2297"
 			(at 50.8 113.03 0)
 			(hide yes)
 			(show_name no)
